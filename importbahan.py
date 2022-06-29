@@ -50,6 +50,7 @@ class make:
 		self.main()
 	def main(self):
 		ahir = str(DT.now()-self.wal).split('.')[0]
+		clear_layar()
 		print(self.logo)
 		name = input(f'\n [%s<%s] hai selamat datang, siapa nama kamu? \n nama : %s'%(H,P,K))
 		clear_layar()
